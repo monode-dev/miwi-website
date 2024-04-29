@@ -5,13 +5,16 @@ layout: home
 hero:
   name: "Miwi UI"
   text: "A Highly Flexible UI System for Solid JS"
-  tagline: A normalized approach to UIs
+  tagline: A normalized approach to UI styling
   actions:
     - theme: brand
       text: Quickstart
       link: /quickstart
     - theme: alt
-      text: API Examples
+      text: Styling Docs
+      link: /api-examples
+    - theme: alt
+      text: Component Docs
       link: /api-examples
 
 features:
