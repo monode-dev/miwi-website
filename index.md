@@ -9,19 +9,21 @@ hero:
   actions:
     - theme: brand
       text: Quickstart
-      link: /quickstart
+      link: /guides/quickstart
     - theme: alt
       text: Styling Docs
-      link: /api-examples
+      link: /styling/overview
     - theme: alt
       text: Component Docs
-      link: /api-examples
+      link: /components/overview
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Learn Fast
+    details: TODO - Explain why Miwi UI is easy to learn.
+  - title: Build Fast
+    details: Our normalized styling system makes building your own components wicked fast.
+  - title: Pivot Fast
+    details: TODO - Explain how Miwi UI makes pivots easy.
+  - title: Ship Fast
+    details: TODO - Explain all the edge cases we've accounted for.
 ---

@@ -9,21 +9,27 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Guides", link: "/guides/quickstart" },
+      { text: "Docs", link: "/styling/overview" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "Guides",
+        items: [{ text: "Quickstart", link: "/guides/quickstart" }],
+      },
+      {
+        text: "Styling",
+        items: [{ text: "Overview", link: "/styling/overview" }],
+      },
+      {
+        text: "Components",
+        items: [{ text: "Overview", link: "/components/overview" }],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/monode-dev/Miwi" },
       { icon: `npm`, link: `https://www.npmjs.com/package/miwi` },
       { icon: `x`, link: `https://twitter.com/melchiahmauck` },
     ],
