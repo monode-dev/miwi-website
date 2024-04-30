@@ -3,8 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Miwi",
-  description:
-    "An in development UI system that just works, with lots of components.",
+  description: "A Highly Flexible UI System for Solid JS",
   srcDir: "docs",
   head: [
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
