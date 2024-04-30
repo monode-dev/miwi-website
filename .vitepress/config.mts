@@ -46,7 +46,27 @@ export default defineConfig({
       },
       {
         text: "Styling",
-        items: [{ text: "Overview", link: "/styling/overview" }],
+        items: [
+          { text: "Overview", link: "/styling/overview" },
+          {
+            text: "Size",
+            link: "/styling/overview",
+            items: [
+              { text: "Fixed", link: "/styling/overview" },
+              { text: "Shrink", link: "/styling/overview" },
+              { text: "Grow", link: "/styling/overview" },
+            ],
+          },
+          {
+            text: "Axis",
+            link: "/styling/overview",
+            items: [
+              { text: "Row", link: "/styling/overview" },
+              { text: "Column", link: "/styling/overview" },
+              { text: "Stack", link: "/styling/overview" },
+            ],
+          },
+        ],
       },
       {
         text: "Components",
