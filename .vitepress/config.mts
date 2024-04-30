@@ -14,7 +14,10 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "Miwi UI" }],
     [
       "meta",
-      { property: "og:image", content: "https://miwi-website.web.app/m.svg" },
+      {
+        property: "og:image",
+        content: "https://miwi-website.web.app/m-og.jpg",
+      },
     ],
     ["meta", { property: "og:url", content: "https://miwi.dev/" }],
   ],
