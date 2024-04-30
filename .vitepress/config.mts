@@ -6,9 +6,10 @@ export default defineConfig({
   description:
     "An in development UI system that just works, with lots of components.",
   srcDir: "docs",
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/m.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // logo: "/m.svg",
+    // logo: "/kiwi.svg",
     nav: [
       { text: "Home", link: "/" },
       // { text: "Guides", link: "/guides/quickstart" },
