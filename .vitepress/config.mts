@@ -24,7 +24,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://miwi-website.web.app/m-og.jpg",
+        content: "https://miwi-website.web.app/kiwi-og.jpg",
       },
     ],
     ["meta", { property: "og:url", content: "https://miwi-website.web.app/" }],
