@@ -2,21 +2,24 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Miwi UI",
+  title: "Miwi",
   description:
     "An in development UI system that just works, with lots of components.",
+  srcDir: "docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/m.svg",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guides", link: "/guides/quickstart" },
+      // { text: "Guides", link: "/guides/quickstart" },
+      { text: "Cookbook", link: "/cookbook/quickstart" },
       { text: "Docs", link: "/styling/overview" },
     ],
 
     sidebar: [
       {
-        text: "Guides",
-        items: [{ text: "Quickstart", link: "/guides/quickstart" }],
+        text: "Cookbook",
+        items: [{ text: "Quickstart", link: "/cookbook/quickstart" }],
       },
       {
         text: "Styling",
