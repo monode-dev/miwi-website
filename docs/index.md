@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Miwi"
   text: "A Highly Flexible UI System for Solid JS"
-  tagline: A normalized approach to UI styling
+  # tagline: A nsormalized approach to UI styling
   image:
     src: /kiwi.svg
     alt: Miwi

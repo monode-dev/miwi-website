@@ -9,3 +9,10 @@
 .VPHero .name {
   font-family: "Montserrat";
 }
+
+/* .VPNavBarTitle span:first-of-type {
+  font-family: "Montserrat";
+  -webkit-text-fill-color: transparent;
+  background: center / cover url("/miwi-background.svg");
+  background-clip: text;
+} */
