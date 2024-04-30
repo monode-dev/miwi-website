@@ -50,21 +50,28 @@ export default defineConfig({
           { text: "Overview", link: "/styling/overview" },
           {
             text: "Size",
-            link: "/styling/overview",
+            link: "/styling/size",
             items: [
-              { text: "Fixed", link: "/styling/overview" },
-              { text: "Shrink", link: "/styling/overview" },
-              { text: "Grow", link: "/styling/overview" },
+              { text: "Width", link: "/styling/size/width" },
+              { text: "Height", link: "/styling/size/height" },
             ],
           },
           {
-            text: "Axis",
-            link: "/styling/overview",
+            text: "Layout",
+            link: "/styling/layout",
             items: [
-              { text: "Row", link: "/styling/overview" },
-              { text: "Column", link: "/styling/overview" },
-              { text: "Stack", link: "/styling/overview" },
+              { text: "Axis", link: "/styling/layout/axis" },
+              { text: "Align", link: "/styling/layout/align" },
+              { text: "Overflow", link: "/styling/layout/overflow" },
             ],
+          },
+          {
+            text: "Decoration",
+            link: "/styling/overview",
+          },
+          {
+            text: "Text",
+            link: "/styling/overview",
           },
         ],
       },
