@@ -7,6 +7,15 @@ export default defineConfig({
     "An in development UI system that just works, with lots of components.",
   srcDir: "docs",
   head: [
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com" }],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+      },
+    ],
     ["link", { rel: "icon", type: "image/svg+xml", href: "/m.svg" }],
     ["meta", { rel: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "en" }],
