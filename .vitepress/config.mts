@@ -10,7 +10,6 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/svg+xml", href: "/m.svg" }],
     ["meta", { rel: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "en" }],
-    ["meta", { property: "og:locale", content: "en" }],
     ["meta", { property: "og:title", content: "Miwi UI" }],
     ["meta", { property: "og:site_name", content: "Miwi UI" }],
     [
