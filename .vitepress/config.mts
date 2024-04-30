@@ -52,6 +52,10 @@ export default defineConfig({
         text: "Components",
         items: [{ text: "Overview", link: "/components/overview" }],
       },
+      {
+        text: "Science",
+        items: [{ text: "Normalization", link: "/science/normalization" }],
+      },
     ],
 
     socialLinks: [
