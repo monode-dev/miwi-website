@@ -6,7 +6,19 @@ export default defineConfig({
   description:
     "An in development UI system that just works, with lots of components.",
   srcDir: "docs",
-  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/m.svg" }]],
+  head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/m.svg" }],
+    ["meta", { rel: "og:type", content: "website" }],
+    ["meta", { property: "og:locale", content: "en" }],
+    ["meta", { property: "og:locale", content: "en" }],
+    ["meta", { property: "og:title", content: "Miwi UI" }],
+    ["meta", { property: "og:site_name", content: "Miwi UI" }],
+    [
+      "meta",
+      { property: "og:image", content: "https://miwi-website.web.app/m.svg" },
+    ],
+    ["meta", { property: "og:url", content: "https://miwi.dev/" }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: "/kiwi.svg",
