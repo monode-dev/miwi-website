@@ -28,7 +28,7 @@ export default defineConfig({
         content: "https://miwi-website.web.app/m-og.jpg",
       },
     ],
-    ["meta", { property: "og:url", content: "https://miwi.dev/" }],
+    ["meta", { property: "og:url", content: "https://miwi-website.web.app/" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
