@@ -80,8 +80,8 @@ export default defineConfig({
         items: [{ text: "Overview", link: "/components/overview" }],
       },
       {
-        text: "Science",
-        items: [{ text: "Normalization", link: "/science/normalization" }],
+        text: "Theory",
+        items: [{ text: "Normalization", link: "/theory/normalization" }],
       },
     ],
 
