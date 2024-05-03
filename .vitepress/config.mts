@@ -73,6 +73,10 @@ export default defineConfig({
             text: "Text",
             link: "/styling/overview",
           },
+          {
+            text: "Z index",
+            link: "/styling/Zindex",
+          },
         ],
       },
       {
