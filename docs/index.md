@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Miwi"
+  name: "Miwi UI"
   text: "A Highly Flexible UI System for Solid JS"
   # tagline: A nsormalized approach to UI styling
   image:
     src: /kiwi.svg
-    alt: Miwi
+    alt: Kiwi Fruit
   actions:
     - theme: brand
       text: Quickstart
