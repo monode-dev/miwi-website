@@ -3,7 +3,8 @@
   --vp-c-brand-2: #60cc66;
   --vp-c-brand-3: #60cc66;
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: center / cover url("/miwi-background.svg");
+  --vp-home-hero-name-background: center / cover
+    url("/miwi-ui-background-half-flat.svg");
 }
 
 .VPHero .name {
