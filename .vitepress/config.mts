@@ -63,6 +63,7 @@ export default defineConfig({
               { text: "Axis", link: "/styling/layout/axis" },
               { text: "Align", link: "/styling/layout/align" },
               { text: "Overflow", link: "/styling/layout/overflow" },
+              { text: "Z Index", link: "/styling/layout/z-index" },
             ],
           },
           {
@@ -72,10 +73,6 @@ export default defineConfig({
           {
             text: "Text",
             link: "/styling/overview",
-          },
-          {
-            text: "Z index",
-            link: "/styling/Zindex",
           },
         ],
       },
