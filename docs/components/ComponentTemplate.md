@@ -31,7 +31,7 @@ import { componentNameHere } from "miwi";
 
 <!-- Example notes -->
 
----
+
 
 <!-- Extra example with code -->
 
