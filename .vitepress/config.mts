@@ -90,6 +90,7 @@ export default defineConfig({
         items: [
           { text: "Overview", link: "/components/overview" },
           { text: "AppBar", link: "/components/appbar" },
+          { text: "Body", link: "/components/body" },          
         ],
       },
       {

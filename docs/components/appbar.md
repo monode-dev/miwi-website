@@ -6,7 +6,7 @@ outline: deep
 
 The AppBar component is a versatile navigation bar that can be customized with various elements
 
-## 1. Here's how to use it:
+## 1. Import
 
 First, you need to import the **AppBar** component from its file.
 
