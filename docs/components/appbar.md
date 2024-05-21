@@ -6,9 +6,9 @@ outline: deep
 
 The AppBar component is a versatile navigation bar that can be customized with various elements
 
-## 1. Import
+## 1. Import AppBar
 
-First, you need to import the **AppBar** component from its file.
+First, you need to import the **AppBar** component from Miwi.
 
 ```ts
 import { AppBar } from "miwi";

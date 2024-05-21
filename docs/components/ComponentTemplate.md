@@ -6,16 +6,15 @@ outline: deep
 
 <!-- Component description -->
 
-## 1.Here's how to use it:
+## 1.Import componentNameHere
 
-First, you need to import the **componentNameHere** component from its file.
+First, you need to import the **componentNameHere** component from Miwi.
 
 ```ts
 import { componentNameHere } from "miwi";
 ```
 
-## 2.Use the componentNameHere component in your JSX
-
+## 2.Use componentNameHere
 
 <!-- Example with code  -->
 
@@ -30,8 +29,6 @@ import { componentNameHere } from "miwi";
 ```
 
 <!-- Example notes -->
-
-
 
 <!-- Extra example with code -->
 

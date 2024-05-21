@@ -91,6 +91,8 @@ export default defineConfig({
           { text: "Overview", link: "/components/overview" },
           { text: "AppBar", link: "/components/appbar" },
           { text: "Body", link: "/components/body" },          
+          { text: "Button", link: "/components/button" },          
+          { text: "Card", link: "/components/card" },          
         ],
       },
       {

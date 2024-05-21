@@ -6,9 +6,9 @@ outline: deep
 
 The Body component is a wrapper component that uses the Column component with some predefined properties. It takes all the properties of the BoxProps type, which includes properties for layout, interaction, decoration, size, and text.
 
-## 1.Here's how to use it:
+## 1.Import Body
 
-First, you need to import the **componentNameHere** component from its file.
+First, you need to import the **componentNameHere** component from Miwi.
 
 ```ts
 import { Body } from "miwi";
