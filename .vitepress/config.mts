@@ -93,6 +93,7 @@ export default defineConfig({
           { text: "Body", link: "/components/body" },          
           { text: "Button", link: "/components/button" },          
           { text: "Card", link: "/components/card" },          
+          { text: "Circular Progress Indicator", link: "/components/circularprogressindicator" },          
         ],
       },
       {

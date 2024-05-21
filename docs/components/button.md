@@ -6,7 +6,7 @@ outline: deep
 
 The Button component is a customizable button that accepts several props to adjust its appearance.
 
-## 1.Import Button
+## 1. Import Button
 
 First, you need to import the **Button** component from Miwi.
 
@@ -14,7 +14,7 @@ First, you need to import the **Button** component from Miwi.
 import { Button } from "miwi";
 ```
 
-## 2.Use Button
+## 2. Use Button
 
 <!-- Example with code  -->
 

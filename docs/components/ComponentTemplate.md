@@ -6,7 +6,7 @@ outline: deep
 
 <!-- Component description -->
 
-## 1.Import componentNameHere
+## 1. Import componentNameHere
 
 First, you need to import the **componentNameHere** component from Miwi.
 
@@ -14,7 +14,7 @@ First, you need to import the **componentNameHere** component from Miwi.
 import { componentNameHere } from "miwi";
 ```
 
-## 2.Use componentNameHere
+## 2. Use componentNameHere
 
 <!-- Example with code  -->
 
@@ -36,4 +36,8 @@ import { componentNameHere } from "miwi";
 
 ```
 
-<!-- Final note and references -->
+##The componentNameHere default styling/props is / are:
+
+```ts
+
+```

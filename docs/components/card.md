@@ -6,7 +6,7 @@ outline: deep
 
 <!-- Component description -->
 
-## 1.Import Card
+## 1. Import Card
 
 First, you need to import the **Card** component from Miwi.
 
@@ -14,7 +14,7 @@ First, you need to import the **Card** component from Miwi.
 import { Card } from "miwi";
 ```
 
-## 2.Use componentNameHere
+## 2. Use componentNameHere
 
 You can use the Card component to wrap other components or content. Here's an example:
 
