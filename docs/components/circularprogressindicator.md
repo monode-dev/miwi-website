@@ -17,9 +17,11 @@ import { CircularProgressIndicator } from "miwi";
 ## 2. Use Circular Progress Indicator
 
 You can use the CircularProgressIndicator component in your JSX code. Here's a basic example:
+
 ```ts
 <CircularProgressIndicator />
 ```
+
 This will render a default Circular Progress Indicator.
 
 <br>
@@ -33,6 +35,7 @@ You can also customize the CircularProgressIndicator by passing props to it. Her
 In this example, the diameter of the circular progress indicator is set to 50, the thickness of the circle is set to 5, and the color is set to red.
 
 ## Note
+
 The diameter and thickness props can accept either a number (representing pixels) or a string (representing a CSS value). The color prop accepts a string representing a CSS color.
 
 ```ts
@@ -41,11 +44,27 @@ The diameter and thickness props can accept either a number (representing pixels
 
 In this example, the diameter is set to 5em, the thickness is set to 0.5em, and the color is set to blue.
 
-
-## The CircularProgressIndicator default styling is:
+## Default styling is:
 
 **diameter**: The default value is **4**. This property determines the diameter of the circular progress indicator.
 
 **thickness**: The default value is **diameter / 8** if **diameter** is a number, otherwise it's the same as diameter. This property determines the thickness of the circular progress indicator.
 
 **color**: The default value is strokeTexture (which can be seth in Miwi's Theme). This property determines the color of the circular progress indicator.
+
+<br>
+
+---
+
+
+### Example
+```ts
+<CircularProgressIndicator
+  diameter={2.75}
+  thickness={1 / 4}
+  color={$theme.colors.hint}
+/>
+```
+
+![A Progess indicator frame](../component-pictures/circular-progress-indicator.webp "Miwi's Circular Progress Indicator")
+

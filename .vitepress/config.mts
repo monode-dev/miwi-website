@@ -45,6 +45,10 @@ export default defineConfig({
         items: [{ text: "Quickstart", link: "/cookbook/quickstart" }],
       },
       {
+        text: "Box Props",
+        items: [{ text: "Quickstart", link: "/cookbook/quickstart" }],
+      },
+      {
         text: "Known Bugs",
         items: [
           {
@@ -93,7 +97,9 @@ export default defineConfig({
           { text: "Body", link: "/components/body" },          
           { text: "Button", link: "/components/button" },          
           { text: "Card", link: "/components/card" },          
+          { text: "Column", link: "/components/column" },          
           { text: "Circular Progress Indicator", link: "/components/circularprogressindicator" },          
+          { text: "Delete Dialog", link: "/components/deletedialog" },          
         ],
       },
       {

@@ -36,7 +36,7 @@ import { componentNameHere } from "miwi";
 
 ```
 
-##The componentNameHere default styling/props is / are:
+## Default styling/props:
 
 ```ts
 
