@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Component name here
+# componentNameHere
 
 <!-- Component description -->
 
@@ -41,3 +41,5 @@ import { componentNameHere } from "miwi";
 ```ts
 
 ```
+
+![Alt text](../component-pictures/pictureName.webp "title")

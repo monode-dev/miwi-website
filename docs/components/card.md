@@ -14,7 +14,7 @@ First, you need to import the **Card** component from Miwi.
 import { Card } from "miwi";
 ```
 
-## 2. Use componentNameHere
+## 2. Use Card
 
 You can use the Card component to wrap other components or content. Here's an example:
 
@@ -25,6 +25,7 @@ You can use the Card component to wrap other components or content. Here's an ex
 ```
 
 In this example, the Card component is used to contain a Text component.
+
 <br><br>
 
 You can also pass in BoxProps to the Card component to customize its appearance:
