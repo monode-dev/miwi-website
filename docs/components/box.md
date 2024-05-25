@@ -42,4 +42,4 @@ import { Box } from "miwi";
 
 ```
 
-![Alt text](../component-pictures/pictureName.webp "title")
+<!-- ![Alt text](../component-pictures/pictureName.webp "title") -->
