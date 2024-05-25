@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "webpify": "node .vitepress/webpify.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.12.12",
+    "sharp": "^0.33.4",
     "vitepress": "^1.2.2"
   }
 }
