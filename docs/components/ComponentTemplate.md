@@ -42,4 +42,8 @@ import { componentNameHere } from "miwi";
 
 ```
 
+<!-- How to add a picture -->
 <!-- ![Alt text](../component-pictures/pictureName.webp "title") -->
+
+<!-- How to add <> in your text. -->
+<!-- lt;component&gt; -->
