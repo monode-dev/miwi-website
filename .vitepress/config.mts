@@ -42,7 +42,10 @@ export default defineConfig({
     sidebar: [
       {
         text: "Cookbook",
-        items: [{ text: "Quickstart", link: "/cookbook/quickstart" }],
+        items: [
+          { text: "Quickstart", link: "/cookbook/quickstart" },
+          { text: "Polish Checklist", link: "/cookbook/polish-checklist" },
+        ],
       },
       {
         text: "Box Props",
