@@ -68,8 +68,11 @@ export default defineConfig({
             text: "Size",
             link: "/styling/size",
             items: [
-              { text: "Width", link: "/styling/size/width" },
-              { text: "Height", link: "/styling/size/height" },
+              { text: "Fixed", link: "/styling/size/fixed" },
+              { text: "Grow", link: "/styling/size/grow" },
+              { text: "Shrink", link: "/styling/size/shrink" },
+              { text: "Aspect Ratio", link: "/styling/size/aspect-ratio" },
+              { text: "CSS", link: "/styling/size/css" },
             ],
           },
           {
