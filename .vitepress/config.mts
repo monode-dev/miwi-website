@@ -65,8 +65,8 @@ export default defineConfig({
         items: [
           { text: "Overview", link: "/styling/overview" },
           {
-            text: "Size",
-            link: "/styling/size",
+            text: "Sizing",
+            link: "/styling/size/size",
             items: [
               { text: "Fixed", link: "/styling/size/fixed" },
               { text: "Grow", link: "/styling/size/grow" },
@@ -86,12 +86,16 @@ export default defineConfig({
             ],
           },
           {
-            text: "Decoration",
+            text: "Decorating",
             link: "/styling/overview",
           },
           {
-            text: "Text",
+            text: "Text Styling",
             link: "/styling/overview",
+          },
+          {
+            text: "Interactions",
+            link: "/styling/interactions",
           },
         ],
       },
@@ -131,10 +135,10 @@ export default defineConfig({
           // { text: "Txt", link: "/components/deletedialog" },
         ],
       },
-      {
-        text: "Theory",
-        items: [{ text: "Normalization", link: "/theory/normalization" }],
-      },
+      // {
+      //   text: "Theory",
+      //   items: [{ text: "Normalization", link: "/theory/normalization" }],
+      // },
     ],
 
     socialLinks: [
